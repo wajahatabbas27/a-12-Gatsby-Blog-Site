@@ -1,6 +1,6 @@
-const dotenv = require('dotenv');
+// const dotenv = require('dotenv');
 
-dotenv.config();
+// dotenv.config();
 
 module.exports = {
   /* Your site config here */
@@ -15,12 +15,11 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: process.env.SPACEID,
-        accessToken: process.env.ACCESSTOKEN,
-      }
+        spaceId: "374pb3ddawli",
+        accessToken: "aM_OFcQCT7iR2P9M4UFbd4lR00gjLzpWrRQoLt_t96U",
+      },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-
   ],
-}
+};
